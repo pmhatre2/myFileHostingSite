@@ -1,4 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="Hotels.xsl"?>
+
 <Hotels xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Hotels.xsd">
 	<Hotel NearestAirport="Sky Harbor" Rating="4.2">
 		<Name>Westin</Name>
@@ -135,5 +137,6 @@
 			<Zip>86001</Zip>
 		</Address>
 	</Hotel>
+
 
 </Hotels>
