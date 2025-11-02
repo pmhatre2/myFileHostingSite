@@ -1,5 +1,22 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Hotel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Hotels.xsd">
+	<!--  Root name is Hotel instead of Hotels  -->
+	<!--  Sample Hotel Westin  -->
+	<Hotel NearestAirport="Sky Harbor" Rating="4.2">
+		<Name>Westin</Name>
+		<Phone>480-968-8885</Phone>
+		<Phone>800-937-8461</Phone>
+		<Address>
+			<Number>11</Number>
+			<Street>E.7th St</Street>
+			<City>Tempe</City>
+			<State>AZ</State>
+			<Zip>85281</Zip>
+		</Address>
+	</Hotel>
+
+	<!--  info for 10 hotels near Phoenix, Tucson, Flagstaff  -->
+	<!--  Missing required attribute NearestAirport  -->
 	<Hotel Rating="5.0">
 		<Name>The Phoenician</Name>
 		<Phone>480-423-2500</Phone>
@@ -26,6 +43,7 @@
 
 	<Hotel NearestAirport="Sky Harbor">
 		<Name>Arizona Biltmore</Name>
+		<!--  Missing a phone number  -->
 		<Address>
 			<Number>2400</Number>
 			<Street>E Missouri Ave</Street>
@@ -44,9 +62,11 @@
 			<City>Phoenix</City>
 			<State>AZ</State>
 			<Zip>85004</Zip>
+			<!--  Missing closing tag for address  -->
 	</Hotel>
 
 	<Hotel NearestAirport="Tucson Intl" Rating="4.5">
+		<!-- Has two names for hotel -->
 		<Name>Loews Ventana Canyon</Name>
 		<Name>Loews</Name>
 		<Phone>520-299-2020</Phone>
@@ -120,5 +140,6 @@
 			<Zip>86001</Zip>
 		</Address>
 	</Hotel>
+
 
 </Hotel>
