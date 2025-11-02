@@ -17,7 +17,7 @@
 
 				<xsd:element ref="Address" minOccurs="1" maxOccurs="1"/>
 			</xsd:sequence>
-			<!--  Optional attribute Nearest Airport  -->
+			<!--  Optional attribute hotel rating  -->
 			<xsd:attribute name="Rating" type="xsd:decimal" use="optional"/>
 			<!--  Required attribute Nearest Airport  -->
 			<xsd:attribute name="NearestAirport" type="xsd:string" use="required"/>
@@ -37,3 +37,4 @@
 	</xsd:element>
 
 </xsd:schema>
+
