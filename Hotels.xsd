@@ -7,7 +7,7 @@
 			</xsd:sequence>
 		</xsd:complexType>
 	</xsd:element>
-
+	<!--  Hotel under directory of Hotels  -->
 	<xsd:element name="Hotel">
 		<xsd:complexType>
 			<xsd:sequence>
@@ -17,13 +17,13 @@
 
 				<xsd:element ref="Address" minOccurs="1" maxOccurs="1"/>
 			</xsd:sequence>
-
+			<!--  Optional attribute Nearest Airport  -->
 			<xsd:attribute name="Rating" type="xsd:decimal" use="optional"/>
-
+			<!--  Required attribute Nearest Airport  -->
 			<xsd:attribute name="NearestAirport" type="xsd:string" use="required"/>
 		</xsd:complexType>
 	</xsd:element>
-	<!--  Define the allowed format for the Phone number with a regular exp.  -->
+	<!--  Define the allowed format for the Address attribute with children  -->
 	<xsd:element name="Address">
 		<xsd:complexType>
 			<xsd:sequence>
@@ -35,4 +35,5 @@
 			</xsd:sequence>
 		</xsd:complexType>
 	</xsd:element>
+
 </xsd:schema>
