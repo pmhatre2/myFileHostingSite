@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="Hotels.xsl"?>
+
+<Hotels xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Hotels.xsd">
+	<Hotel NearestAirport="Sky Harbor" Rating="4.2">
+		<Name>Westin</Name>
+		<Phone>480-968-8885</Phone>
+		<Phone>800-937-8461</Phone>
+		<Address>
+			<Number>11</Number>
+			<Street>E.7th St</Street>
+			<City>Tempe</City>
+			<State>AZ</State>
+			<Zip>85281</Zip>
+		</Address>
+	</Hotel>
+
+	<Hotel NearestAirport="Sky Harbor" Rating="5.0">
+		<Name>The Phoenician</Name>
+		<Phone>480-423-2500</Phone>
+		<Address>
+			<Number>6000</Number>
+			<Street>E Camelback Rd</Street>
+			<City>Scottsdale</City>
+			<State>AZ</State>
+			<Zip>85251</Zip>
+		</Address>
+	</Hotel>
+
+	<Hotel NearestAirport="Sky Harbor" Rating="4.8">
+		<Name>Four Seasons Resort</Name>
+		<Phone>480-515-5700</Phone>
+		<Address>
+			<Number>10600</Number>
+			<Street>E Crescent Moon Dr</Street>
+			<City>Scottsdale</City>
+			<State>AZ</State>
+			<Zip>85262</Zip>
+		</Address>
+	</Hotel>
+
+	<Hotel NearestAirport="Sky Harbor">
+		<Name>Arizona Biltmore</Name>
+		<Phone>602-955-6600</Phone>
+		<Phone>800-950-0086</Phone>
+		<Address>
+			<Number>2400</Number>
+			<Street>E Missouri Ave</Street>
+			<City>Phoenix</City>
+			<State>AZ</State>
+			<Zip>85016</Zip>
+		</Address>
+	</Hotel>
+
+	<Hotel NearestAirport="Sky Harbor">
+		<Name>Hyatt Regency Phoenix</Name>
+		<Phone>602-252-1234</Phone>
+		<Address>
+			<Number>122</Number>
+			<Street>N 2nd St</Street>
+			<City>Phoenix</City>
+			<State>AZ</State>
+			<Zip>85004</Zip>
+		</Address>
+	</Hotel>
+
+	<Hotel NearestAirport="Tucson Intl" Rating="4.5">
+		<Name>Loews Ventana Canyon</Name>
+		<Phone>520-299-2020</Phone>
+		<Address>
+			<Number>7000</Number>
+			<Street>N Resort Dr</Street>
+			<City>Tucson</City>
+			<State>AZ</State>
+			<Zip>85750</Zip>
+		</Address>
+	</Hotel>
+
+	<Hotel NearestAirport="Tucson Intl" Rating="4.1">
+		<Name>Hilton El Conquistador</Name>
+		<Phone>520-540-3660</Phone>
+		<Phone>888-370-0980</Phone>
+		<Address>
+			<Number>10000</Number>
+			<Street>N Oracle Rd</Street>
+			<City>Tucson</City>
+			<State>AZ</State>
+			<Zip>85737</Zip>
+		</Address>
+	</Hotel>
+
+	<Hotel NearestAirport="Flagstaff Pulliam" Rating="4.9">
+		<Name>L'Auberge de Sedona</Name>
+		<Phone>855-905-5745</Phone>
+		<Address>
+			<Number>301</Number>
+			<Street>L'Auberge Ln</Street>
+			<City>Sedona</City>
+			<State>AZ</State>
+			<Zip>86336</Zip>
+		</Address>
+	</Hotel>
+
+	<Hotel NearestAirport="Flagstaff Pulliam">
+		<Name>Amara Resort and Spa</Name>
+		<Phone>928-282-4828</Phone>
+		<Address>
+			<Number>100</Number>
+			<Street>Amara Ln</Street>
+			<City>Sedona</City>
+			<State>AZ</State>
+			<Zip>86336</Zip>
+		</Address>
+	</Hotel>
+
+	<Hotel NearestAirport="Flagstaff Pulliam">
+		<Name>Little America Hotel</Name>
+		<Phone>928-779-2780</Phone>
+		<Phone>800-352-4386</Phone>
+		<Address>
+			<Number>2515</Number>
+			<Street>E Butler Ave</Street>
+			<City>Flagstaff</City>
+			<State>AZ</State>
+			<Zip>86004</Zip>
+		</Address>
+	</Hotel>
+
+	<Hotel NearestAirport="Flagstaff Pulliam">
+		<Name>Hampton Inn &amp; Suites</Name>
+		<Phone>928-999-7777</Phone>
+		<Address>
+			<Number>2400</Number>
+			<Street>S Beulah Blvd</Street>
+			<City>Flagstaff</City>
+			<State>AZ</State>
+			<Zip>86001</Zip>
+		</Address>
+	</Hotel>
+
+</Hotels>
