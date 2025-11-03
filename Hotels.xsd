@@ -12,7 +12,7 @@
 		<xsd:complexType>
 			<xsd:sequence>
 				<xsd:element name="Name" type="xsd:string" minOccurs="1" maxOccurs="1"/>
-
+				<!--  Use string as explained in faq doc  -->
 				<xsd:element name="Phone" type="xsd:string" minOccurs="1" maxOccurs="unbounded"/>
 
 				<xsd:element ref="Address" minOccurs="1" maxOccurs="1"/>
@@ -23,7 +23,7 @@
 			<xsd:attribute name="NearestAirport" type="xsd:string" use="required"/>
 		</xsd:complexType>
 	</xsd:element>
-	<!--  Define the allowed format for the Phone number with a regular exp.  -->
+	<!--  Define the allowed format for the Adress with int and string types -->
 	<xsd:element name="Address">
 		<xsd:complexType>
 			<xsd:sequence>
@@ -36,6 +36,7 @@
 		</xsd:complexType>
 	</xsd:element>
 </xsd:schema>
+
 
 
 
