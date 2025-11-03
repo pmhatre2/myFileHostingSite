@@ -1,18 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Hotels xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Hotels.xsd">
 
-	<!--  info for 10 hotels near Phoenix, Tucson, Flagstaff  -->
-	<Hotel NearestAirport="Sky Harbor" Rating="5.0">
-		<Name>The Phoenician</Name>
-		<Phone>480-423-2500</Phone>
-		<Address>
-			<Number>6000</Number>
-			<Street>E Camelback Rd</Street>
-			<City>Scottsdale</City>
-			<State>AZ</State>
-			<Zip>85251</Zip>
-		</Address>
-	</Hotel>
 
 	<Hotel NearestAirport="Sky Harbor" Rating="4.8">
 		<Name>Four Seasons Resort</Name>
@@ -126,4 +114,5 @@
 	</Hotel>
 
 </Hotels>
+
 
