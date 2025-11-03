@@ -1,42 +1,30 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
 	<xsd:element name="Hotels">
 		<xsd:complexType>
 			<xsd:sequence>
-				<xsd:element ref="Hotel" minOccurs="1" maxOccurs="unbounded"/>
+				<xsd:element maxOccurs="unbounded" name="Hotel">
+					<xsd:complexType>
+						<xsd:sequence>
+							<xsd:element name="Name" type="xsd:string" />
+							<xsd:element maxOccurs="unbounded" name="Phone" type="xsd:string" />
+							<xsd:element name="Address">
+								<xsd:complexType>
+									<xsd:sequence>
+										<xsd:element name="Number" type="xsd:positiveInteger" />
+										<xsd:element name="Street" type="xsd:string" />
+										<xsd:element name="City" type="xsd:string" />
+										<xsd:element name="State" type="xsd:string" />
+										<xsd:element name="Zip" type="xsd:string" />
+									</xsd:sequence>
+								</xsd:complexType>
+							</xsd:element>
+						</xsd:sequence>
+						<xsd:attribute name="NearestAirport" type="xsd:string" use="required" />
+						<xsd:attribute name="Rating" type="xsd:decimal" use="optional" />
+					</xsd:complexType>
+				</xsd:element>
 			</xsd:sequence>
 		</xsd:complexType>
 	</xsd:element>
-	<!--  Hotel under directory of Hotels  -->
-	<xsd:element name="Hotel">
-		<xsd:complexType>
-			<xsd:sequence>
-				<xsd:element name="Name" type="xsd:string" minOccurs="1" maxOccurs="1"/>
-
-				<xsd:element name="Phone" type="xsd:string" minOccurs="1" maxOccurs="unbounded"/>
-
-				<xsd:element ref="Address" minOccurs="1" maxOccurs="1"/>
-			</xsd:sequence>
-			<!--  Optional attribute hotel rating  -->
-			<xsd:attribute name="Rating" type="xsd:decimal" use="optional"/>
-			<!--  Required attribute Nearest Airport  -->
-			<xsd:attribute name="NearestAirport" type="xsd:string" use="required"/>
-		</xsd:complexType>
-	</xsd:element>
-	<!--  Define the allowed format for the Address attribute with children  -->
-	<xsd:element name="Address">
-		<xsd:complexType>
-			<xsd:sequence>
-				<xsd:element name="Number" type="xsd:positiveInteger"/>
-				<xsd:element name="Street" type="xsd:string"/>
-				<xsd:element name="City" type="xsd:string"/>
-				<xsd:element name="State" type="xsd:string"/>
-				<xsd:element name="Zip" type="xsd:string"/>
-			</xsd:sequence>
-		</xsd:complexType>
-	</xsd:element>
-
 </xsd:schema>
-
-
-
