@@ -1,5 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Hotels xmlns="https://pmhatre2.github.io/myFileHostingSite" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://pmhatre2.github.io/myFileHostingSite Hotels.xsd">
+	<!--  sample Westin hotel  -->
 	<Hotel NearestAirport="Sky Harbor" Rating="4.2">
 		<Name>Westin</Name>
 		<Phone>480-968-8885</Phone>
@@ -13,6 +14,7 @@
 		</Address>
 	</Hotel>
 
+	<!--  info for 10 hotels near Phoenix, Tucson, Flagstaff  -->
 	<Hotel NearestAirport="Sky Harbor" Rating="5.0">
 		<Name>The Phoenician</Name>
 		<Phone>480-423-2500</Phone>
@@ -137,6 +139,7 @@
 	</Hotel>
 
 </Hotels>
+
 
 
 
